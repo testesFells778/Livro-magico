@@ -114,28 +114,17 @@ footer a:hover {
 
 
 /* Responsividade */
+/* Responsividade */
 @media (max-width: 768px) {
-  .book-container {
-    transform: scale(0.8); /* Reduz um pouco o livro em telas menores */
-  }
-
-  #book {
-    width: 350px;
-    height: 250px;
+  .flipbook {
+      width: 100%;
   }
 
   button {
-    font-size: 1.2rem;
-    padding: 8px;
+      font-size: 1rem;
+      padding: 10px;
   }
 
-  footer p {
-    font-size: 1rem;
-  }
-
-  footer a {
-    font-size: 1.2rem;
-  }
 }
 
 @media (max-width: 480px) {
